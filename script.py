@@ -55,8 +55,8 @@ def build_tree(elements):
 
 
 
-# if __name__=='__main__':
-#     numbers=[2,32,3,4,6,14,67]
-#     numbers_tree=build_tree(numbers)
-#     print(numbers_tree.inOrderTraversal())
-#     print(numbers_tree.search(4))
+if __name__=='__main__':
+    numbers=[2,32,3,4,6,14,67]
+    numbers_tree=build_tree(numbers)
+    print(numbers_tree.inOrderTraversal())
+    print(numbers_tree.search(4))
